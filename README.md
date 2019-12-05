@@ -51,6 +51,6 @@ Package Registry for Candlepin dependencies using the Git Hub Package Registry A
    ```
 
    Note that you need to provide the groupId, artifactId, version, and packaging yourself.  Also note that the file is not
-   being uploaded directly from the location in the local maven repository (`~/.m2/repository/`).  There is a [bug in Maven]
-   (https://stackoverflow.com/a/26411581/6124862) where `deploy-file` doesn't work properly when given a path within the
-   local repository.  Just copy the file to `/tmp` and upload from there.
+   being uploaded directly from the location in the local maven repository (`~/.m2/repository/`).  There is a
+   [bug in Maven](https://stackoverflow.com/a/26411581/6124862) where `deploy-file` doesn't work properly when given a
+   path within the local repository.  Just copy the file to `/tmp` and upload from there.
